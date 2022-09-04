@@ -76,3 +76,50 @@ physics_joint_revolute_create(player2Bar1,player2Wheel,obj_StartLocation.x+92,ob
 prisJoint1 = physics_joint_prismatic_create(player1Wheel,player2Wheel,obj_StartLocation.x-92,obj_StartLocation.y,10,0,-150,150,true,1000,-500,false,false);
 prisJoint2 = physics_joint_prismatic_create(player2Wheel,player1Wheel,obj_StartLocation.x+92,obj_StartLocation.y,-10,0,-150,150,true,1000,-500,false,false);
 physics_joint_rope_create(player1Head,player2Head,obj_StartLocation.x-100,obj_StartLocation.y,obj_StartLocation.x+100,obj_StartLocation.y,300,false);
+
+//helper functions
+function player1_grab_press()
+{
+	p1grabbing = true;
+}
+
+function player2_grab_press()
+{
+	p2grabbing = true;
+}
+
+function player1_grab_release()
+{
+	p1grabbing = false;
+	p1grabbed = false;
+}
+
+function player2_grab_release()
+{
+	p2grabbing = false;
+	p2grabbed = false;
+}
+
+function player1_tense_press()
+{
+	physics_joint_enable_motor(prisJoint1,true);
+	p1contracting = true;
+}
+
+function player2_tense_press()
+{
+	physics_joint_enable_motor(prisJoint2,true);
+	p2contracting = true;
+}
+
+function player1_tense_release()
+{
+	physics_joint_enable_motor(prisJoint1,false);
+	p1contracting = false;
+}
+
+function player2_tense_release()
+{
+	physics_joint_enable_motor(prisJoint2,false);
+	p2contracting = false;
+}
