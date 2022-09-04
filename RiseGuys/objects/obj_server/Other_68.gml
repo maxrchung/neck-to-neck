@@ -1,16 +1,5 @@
 // Don't do server logic if we are not running the server
-if !is_running
-{
-	return;
-}
-
-
 var network_id = ds_map_find_value(async_load, "id");
-if network_id != server_socket
-{
-	return;
-}
-
 var network_type = ds_map_find_value(async_load, "type");
 switch(network_type)
 {
@@ -22,6 +11,9 @@ switch(network_type)
 		send_json_buffer(connected_sockets, "CONNECTED", {
 			players: players
 		});
+		if (players == 2) {
+			room_goto(InsaneRoom);
+		}
 		break;
 	case network_type_disconnect:
 		var socket_id = ds_map_find_value(async_load, "socket");
