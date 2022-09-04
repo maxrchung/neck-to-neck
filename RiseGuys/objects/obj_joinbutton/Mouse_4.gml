@@ -9,7 +9,7 @@ else
 	show_debug_message("Connected to server");
 }
 
-instance_create_layer(0, 0, "Instances", obj_Client, {
+var instance = instance_create_layer(0, 0, "Instances", obj_Client, {
 	client_socket: client_socket,
 });
 
