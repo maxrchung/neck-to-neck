@@ -43,20 +43,24 @@ switch(network_type)
 				if is_player_1
 				{
 					obj_PlayersManager.player1_grab_press();
+					send_json_buffer(connected_sockets, "P1_GRAB_PRESSED");
 				}
 				else
 				{
 					obj_PlayersManager.player2_grab_press();
+					send_json_buffer(connected_sockets, "P2_GRAB_PRESSED");
 				}
 				break;
 			case "GRAB_RELEASED":
 				if is_player_1
 				{
 					obj_PlayersManager.player1_grab_release();
+					send_json_buffer(connected_sockets, "P1_GRAB_RELEASED");
 				}
 				else
 				{
 					obj_PlayersManager.player2_grab_release();
+					send_json_buffer(connected_sockets, "P2_GRAB_RELEASED");
 				}
 				break;
 			case "TENSE_PRESSED":
