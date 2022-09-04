@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},"order":2,},
+    {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},"order":16,},
     {"id":{"name":"spr_Waiting","path":"sprites/spr_Waiting/spr_Waiting.yy",},"order":2,},
     {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},"order":3,},
     {"id":{"name":"roo_StartRoom","path":"rooms/roo_StartRoom/roo_StartRoom.yy",},"order":2,},
@@ -10,7 +11,10 @@
     {"id":{"name":"obj_StartButton","path":"objects/obj_StartButton/obj_StartButton.yy",},"order":2,},
     {"id":{"name":"obj_Client","path":"objects/obj_Client/obj_Client.yy",},"order":4,},
     {"id":{"name":"spr_StartButton","path":"sprites/spr_StartButton/spr_StartButton.yy",},"order":0,},
+    {"id":{"name":"Sprite12","path":"sprites/Sprite12/Sprite12.yy",},"order":15,},
+    {"id":{"name":"obj_Grabable","path":"objects/obj_Grabable/obj_Grabable.yy",},"order":7,},
     {"id":{"name":"spr_JoinButton","path":"sprites/spr_JoinButton/spr_JoinButton.yy",},"order":1,},
+    {"id":{"name":"obj_g0","path":"objects/obj_g0/obj_g0.yy",},"order":8,},
     {"id":{"name":"obj_Server","path":"objects/obj_Server/obj_Server.yy",},"order":3,},
     {"id":{"name":"Networking","path":"scripts/Networking/Networking.yy",},"order":0,},
     {"id":{"name":"obj_JoinButton","path":"objects/obj_JoinButton/obj_JoinButton.yy",},"order":1,},
@@ -23,6 +27,8 @@
     {"id":{"name":"Triangle_G","path":"sprites/Triangle_G/Triangle_G.yy",},"order":3,},
     {"id":{"name":"obj_Player1","path":"objects/obj_Player1/obj_Player1.yy",},"order":5,},
     {"id":{"name":"Square_R","path":"sprites/Square_R/Square_R.yy",},"order":1,},
+    {"id":{"name":"obj_StartLocation","path":"objects/obj_StartLocation/obj_StartLocation.yy",},"order":10,},
+    {"id":{"name":"obj_Wall","path":"objects/obj_Wall/obj_Wall.yy",},"order":9,},
     {"id":{"name":"Square_B","path":"sprites/Square_B/Square_B.yy",},"order":0,},
     {"id":{"name":"Star_P","path":"sprites/Star_P/Star_P.yy",},"order":4,},
     {"id":{"name":"obj_NonCollidable","path":"objects/obj_NonCollidable/obj_NonCollidable.yy",},"order":1,},
@@ -42,9 +48,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"TestRoom0","path":"rooms/TestRoom0/TestRoom0.yy",},},
     {"roomId":{"name":"roo_StartRoom","path":"rooms/roo_StartRoom/roo_StartRoom.yy",},},
     {"roomId":{"name":"roo_WaitingRoom","path":"rooms/roo_WaitingRoom/roo_WaitingRoom.yy",},},
-    {"roomId":{"name":"TestRoom0","path":"rooms/TestRoom0/TestRoom0.yy",},},
     {"roomId":{"name":"InsaneRoom","path":"rooms/InsaneRoom/InsaneRoom.yy",},},
   ],
   "Folders": [
