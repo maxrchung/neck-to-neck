@@ -127,11 +127,10 @@ function player2_tense_release()
 can_player1_impulse = true;
 function player1_impulse(impulse_x, impulse_y)
 {
-	if !can_player1_impulse
-	{
-		return;
-	}
-	
+	//if !can_player1_impulse
+	//{
+	//	return;
+	//}
 	can_player1_impulse = false;
 	alarm[0] = room_speed;
     var dir = point_direction(player1Head.x, player1Head.y, impulse_x, impulse_y);
@@ -144,10 +143,10 @@ function player1_impulse(impulse_x, impulse_y)
 can_player2_impulse = true;
 function player2_impulse(impulse_x, impulse_y)
 {
-	if !can_player2_impulse
-	{
-		return;
-	}
+	//if !can_player2_impulse
+	//{
+	//	return;
+	//}
 	can_player2_impulse = false;
 	alarm[1] = room_speed;
     var dir = point_direction(player2Head.x, player2Head.y, impulse_x, impulse_y);

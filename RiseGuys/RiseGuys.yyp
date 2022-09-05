@@ -34,6 +34,7 @@
     {"id":{"name":"spr_Forest2","path":"sprites/spr_Forest2/spr_Forest2.yy",},"order":5,},
     {"id":{"name":"spr_Join","path":"sprites/spr_Join/spr_Join.yy",},"order":1,},
     {"id":{"name":"obj_Client","path":"objects/obj_Client/obj_Client.yy",},"order":4,},
+    {"id":{"name":"obj_g1End","path":"objects/obj_g1End/obj_g1End.yy",},"order":16,},
     {"id":{"name":"spr_Bamboo","path":"sprites/spr_Bamboo/spr_Bamboo.yy",},"order":0,},
     {"id":{"name":"spr_StartButton","path":"sprites/spr_StartButton/spr_StartButton.yy",},"order":0,},
     {"id":{"name":"obj_Grabable","path":"objects/obj_Grabable/obj_Grabable.yy",},"order":7,},
@@ -49,6 +50,7 @@
     {"id":{"name":"spr_Cliff3","path":"sprites/spr_Cliff3/spr_Cliff3.yy",},"order":8,},
     {"id":{"name":"Circle_R","path":"sprites/Circle_R/Circle_R.yy",},"order":5,},
     {"id":{"name":"spr_Cliff4","path":"sprites/spr_Cliff4/spr_Cliff4.yy",},"order":9,},
+    {"id":{"name":"obj_BackButton","path":"objects/obj_BackButton/obj_BackButton.yy",},"order":10,},
     {"id":{"name":"obj_Collidable","path":"objects/obj_Collidable/obj_Collidable.yy",},"order":0,},
     {"id":{"name":"obj_TestRoom","path":"objects/obj_TestRoom/obj_TestRoom.yy",},"order":2,},
     {"id":{"name":"obj_Player1","path":"objects/obj_Player1/obj_Player1.yy",},"order":12,},
@@ -74,7 +76,9 @@
     {"id":{"name":"spr_Cloud3","path":"sprites/spr_Cloud3/spr_Cloud3.yy",},"order":3,},
     {"id":{"name":"Circle_Y","path":"sprites/Circle_Y/Circle_Y.yy",},"order":2,},
     {"id":{"name":"obj_PlayersManager","path":"objects/obj_PlayersManager/obj_PlayersManager.yy",},"order":3,},
+    {"id":{"name":"roo_EndRoom","path":"rooms/roo_EndRoom/roo_EndRoom.yy",},"order":5,},
     {"id":{"name":"spr_RibFront","path":"sprites/spr_RibFront/spr_RibFront.yy",},"order":10,},
+    {"id":{"name":"spr_BackButton","path":"sprites/spr_BackButton/spr_BackButton.yy",},"order":5,},
     {"id":{"name":"InsaneRoom","path":"rooms/InsaneRoom/InsaneRoom.yy",},"order":0,},
   ],
   "Options": [
@@ -96,6 +100,7 @@
     {"roomId":{"name":"TestRoom1","path":"rooms/TestRoom1/TestRoom1.yy",},},
     {"roomId":{"name":"roo_WaitingRoom","path":"rooms/roo_WaitingRoom/roo_WaitingRoom.yy",},},
     {"roomId":{"name":"InsaneRoom","path":"rooms/InsaneRoom/InsaneRoom.yy",},},
+    {"roomId":{"name":"roo_EndRoom","path":"rooms/roo_EndRoom/roo_EndRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
