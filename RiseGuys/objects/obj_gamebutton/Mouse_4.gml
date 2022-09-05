@@ -1,1 +1,1 @@
-room_goto(TestRoom0);
+room_goto(NeckRoom);
