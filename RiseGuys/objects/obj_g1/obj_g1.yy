@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Circle_Y",
-    "path": "sprites/Circle_Y/Circle_Y.yy",
+    "name": "Circle_B",
+    "path": "sprites/Circle_B/Circle_B.yy",
   },
   "solid": false,
   "visible": false,
@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_PlayerCollider",
-    "path": "objects/obj_PlayerCollider/obj_PlayerCollider.yy",
+    "name": "obj_Grabable",
+    "path": "objects/obj_Grabable/obj_Grabable.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -35,7 +35,7 @@
     "path": "folders/Objects/InsaneObjects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Player2",
+  "name": "obj_g1",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -4,7 +4,7 @@
     "path": "sprites/Square_R/Square_R.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

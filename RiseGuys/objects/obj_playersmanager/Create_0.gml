@@ -23,7 +23,7 @@ player2Wheel = instance_create_layer(obj_Player2.x-8,obj_Player2.y,layer,obj_Non
 p1HeadFix = physics_fixture_create();
 physics_fixture_set_circle_shape(p1HeadFix,obj_Player1.sprite_width/2);
 physics_fixture_set_density(p1HeadFix, 0.5);
-physics_fixture_set_restitution(p1HeadFix, 0.8);
+physics_fixture_set_restitution(p1HeadFix, 0.9);
 physics_fixture_bind(p1HeadFix,player1Head);
 physics_fixture_delete(p1HeadFix);
 p1Bar0Fix = physics_fixture_create();
@@ -45,7 +45,7 @@ physics_fixture_delete(p1WheelFix);
 p2HeadFix = physics_fixture_create();
 physics_fixture_set_circle_shape(p2HeadFix,obj_Player2.sprite_width/2);
 physics_fixture_set_density(p2HeadFix, 0.5);
-physics_fixture_set_restitution(p2HeadFix, 0.8);
+physics_fixture_set_restitution(p2HeadFix, 0.9);
 physics_fixture_bind(p2HeadFix,player2Head);
 physics_fixture_delete(p2HeadFix);
 p2Bar0Fix = physics_fixture_create();

@@ -4,7 +4,7 @@
     "path": "sprites/Circle_R/Circle_R.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
