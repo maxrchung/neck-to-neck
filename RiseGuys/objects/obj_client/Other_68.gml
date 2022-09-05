@@ -11,6 +11,13 @@ switch (struct.command) {
 		break;
 	case "GAMESTATE":
 		var data = struct.data;
+		
+		// Ran into error where you could get a gamestate packet before loading the room
+		if !instance_exists(obj_Player1Head)
+		{
+			return;
+		}
+		
 		obj_Player1Head.x = data.player1_x;
 		obj_Player1Head.y = data.player1_y;
 		obj_Player2Head.x = data.player2_x;

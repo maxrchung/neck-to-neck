@@ -45,7 +45,7 @@ if keyboard_check_released(ord("A")) && player == 2
 {
 	send_json_buffer([client_socket], "GRAB_RELEASED", "");
 }
-else if mouse_check_button_released(mb_left) && player == 2
+else if mouse_check_button_released(mb_right) && player == 2
 { 
 	send_json_buffer([client_socket], "TENSE_RELEASED", "");
 }

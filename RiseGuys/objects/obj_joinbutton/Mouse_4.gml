@@ -1,3 +1,8 @@
+if point_in_rectangle(mouse_x, mouse_y, x + 73, y + 60, x + 245, y + 95)
+{
+	return;
+}
+
 obj_AudioSwag.play_button_sfx();
 
 var client_socket = network_create_socket(network_socket_tcp);

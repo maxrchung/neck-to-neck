@@ -141,8 +141,8 @@ function player2_tense_release()
 	p2contracting = false;
 }
 
-can_player1_impulse = true;
 is_hack_impulse = false;
+can_player1_impulse = true;
 function player1_impulse(impulse_x, impulse_y)
 {
 	if !can_player1_impulse && !is_hack_impulse
