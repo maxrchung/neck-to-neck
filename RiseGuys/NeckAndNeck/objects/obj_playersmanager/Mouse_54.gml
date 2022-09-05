@@ -1,1 +1,0 @@
-player2_tense_press();

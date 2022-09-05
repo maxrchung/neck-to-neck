@@ -1,1 +1,0 @@
-can_player2_impulse = true;

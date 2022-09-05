@@ -1,1 +1,0 @@
-player1_grab_release();
