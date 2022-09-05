@@ -105,8 +105,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"roo_EndRoom","path":"rooms/roo_EndRoom/roo_EndRoom.yy",},},
     {"roomId":{"name":"roo_StartRoom","path":"rooms/roo_StartRoom/roo_StartRoom.yy",},},
+    {"roomId":{"name":"roo_EndRoom","path":"rooms/roo_EndRoom/roo_EndRoom.yy",},},
     {"roomId":{"name":"NeckRoom","path":"rooms/NeckRoom/NeckRoom.yy",},},
     {"roomId":{"name":"TestRoom0","path":"rooms/TestRoom0/TestRoom0.yy",},},
     {"roomId":{"name":"TestRoom2","path":"rooms/TestRoom2/TestRoom2.yy",},},
