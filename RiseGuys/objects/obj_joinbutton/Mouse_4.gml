@@ -17,3 +17,4 @@ else
 	room_goto(roo_WaitingRoom);
 }
 
+obj_AudioSwag.play_button_sfx();
