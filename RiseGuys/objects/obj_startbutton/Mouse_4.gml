@@ -1,3 +1,5 @@
+obj_AudioSwag.play_button_sfx();
+
 var server_socket = network_create_server(network_socket_tcp, 6510, 69);
 if server_socket < 0
 {
@@ -10,5 +12,4 @@ instance_create_layer(0, 0, "Instances", obj_Server, {
 	connected_sockets: [],
 });
 
-obj_AudioSwag.play_button_sfx();
 room_goto(roo_WaitingRoom);

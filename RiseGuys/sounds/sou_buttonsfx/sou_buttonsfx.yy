@@ -12,8 +12,8 @@
   "bitRate": 128,
   "volume": 1.0,
   "preload": false,
-  "soundFile": "sou_buttonsfx",
-  "duration": 0.0,
+  "soundFile": "sou_buttonsfx.wav",
+  "duration": 0.088125,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

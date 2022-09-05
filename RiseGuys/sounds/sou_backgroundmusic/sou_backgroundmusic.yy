@@ -12,8 +12,8 @@
   "bitRate": 128,
   "volume": 1.0,
   "preload": false,
-  "soundFile": "sou_backgroundmusic",
-  "duration": 0.0,
+  "soundFile": "sou_backgroundmusic.mp3",
+  "duration": 216.84245,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
