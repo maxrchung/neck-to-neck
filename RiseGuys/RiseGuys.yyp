@@ -45,6 +45,7 @@
     {"id":{"name":"spr_StartButton","path":"sprites/spr_StartButton/spr_StartButton.yy",},"order":0,},
     {"id":{"name":"obj_Grabable","path":"objects/obj_Grabable/obj_Grabable.yy",},"order":7,},
     {"id":{"name":"spr_EndTitle","path":"sprites/spr_EndTitle/spr_EndTitle.yy",},"order":13,},
+    {"id":{"name":"spr_SpineEnd","path":"sprites/spr_SpineEnd/spr_SpineEnd.yy",},"order":11,},
     {"id":{"name":"spr_JoinButton","path":"sprites/spr_JoinButton/spr_JoinButton.yy",},"order":1,},
     {"id":{"name":"obj_g0","path":"objects/obj_g0/obj_g0.yy",},"order":8,},
     {"id":{"name":"obj_Server","path":"objects/obj_Server/obj_Server.yy",},"order":3,},
