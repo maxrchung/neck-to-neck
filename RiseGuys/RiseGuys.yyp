@@ -38,6 +38,7 @@
     {"id":{"name":"obj_IpInput","path":"objects/obj_IpInput/obj_IpInput.yy",},"order":8,},
     {"id":{"name":"obj_GameButton","path":"objects/obj_GameButton/obj_GameButton.yy",},"order":9,},
     {"id":{"name":"Square_B","path":"sprites/Square_B/Square_B.yy",},"order":0,},
+    {"id":{"name":"obj_CameraFollow","path":"objects/obj_CameraFollow/obj_CameraFollow.yy",},"order":14,},
     {"id":{"name":"spr_Head2Open","path":"sprites/spr_Head2Open/spr_Head2Open.yy",},"order":2,},
     {"id":{"name":"Star_P","path":"sprites/Star_P/Star_P.yy",},"order":4,},
     {"id":{"name":"obj_NonCollidable","path":"objects/obj_NonCollidable/obj_NonCollidable.yy",},"order":1,},
