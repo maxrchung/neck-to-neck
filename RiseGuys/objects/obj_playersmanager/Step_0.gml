@@ -37,6 +37,7 @@ if (p1grabbing &&
 	{
 		send_json_buffer(obj_Server.connected_sockets, "GAME_END", "");
 	}
+	obj_AudioSwag.play_win_sfx();
 	room_goto(roo_EndRoom);
 }
 

@@ -19,6 +19,7 @@ switch(network_type)
 			});
 		}
 		if (players == 2) {
+			obj_AudioSwag.play_game_start_sfx();
 			room_goto(NeckRoom);
 		}
 		break;
@@ -45,6 +46,7 @@ switch(network_type)
 		{
 			case "GAME_CONTINUE":
 				send_json_buffer(obj_Server.connected_sockets, "GAME_CONTINUE", "");
+				obj_AudioSwag.play_game_start_sfx();
 				room_goto(NeckRoom);
 				break;
 		}

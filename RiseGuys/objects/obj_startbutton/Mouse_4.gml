@@ -10,4 +10,5 @@ instance_create_layer(0, 0, "Instances", obj_Server, {
 	connected_sockets: [],
 });
 
+obj_AudioSwag.play_button_sfx();
 room_goto(roo_WaitingRoom);

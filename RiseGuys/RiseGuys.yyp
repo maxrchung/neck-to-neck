@@ -61,6 +61,7 @@
     {"id":{"name":"spr_Start","path":"sprites/spr_Start/spr_Start.yy",},"order":2,},
     {"id":{"name":"spr_Cloud1","path":"sprites/spr_Cloud1/spr_Cloud1.yy",},"order":1,},
     {"id":{"name":"obj_JoinButton","path":"objects/obj_JoinButton/obj_JoinButton.yy",},"order":1,},
+    {"id":{"name":"sou_GameStartSfx","path":"sounds/sou_GameStartSfx/sou_GameStartSfx.yy",},"order":6,},
     {"id":{"name":"spr_Cliff3","path":"sprites/spr_Cliff3/spr_Cliff3.yy",},"order":8,},
     {"id":{"name":"Circle_R","path":"sprites/Circle_R/Circle_R.yy",},"order":5,},
     {"id":{"name":"spr_Cliff4","path":"sprites/spr_Cliff4/spr_Cliff4.yy",},"order":9,},
