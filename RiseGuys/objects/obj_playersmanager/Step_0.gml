@@ -26,8 +26,15 @@ if(p2grabbing)
 	{
 		p2grabbed = false;
 	}
-}	
+}
 
+
+obj_Player1Head.x = player1Head.x;
+obj_Player1Head.y = player1Head.y;
+obj_Player1Head.image_angle = player1Head.phy_rotation;
+obj_Player2Head.x = player2Head.x;
+obj_Player2Head.y = player2Head.y;
+obj_Player2Head.image_angle = player1Head.phy_rotation;
 
 playerNeck.x = (player1Head.x + player2Head.x)/2
 playerNeck.y = (player1Head.y + player2Head.y)/2
