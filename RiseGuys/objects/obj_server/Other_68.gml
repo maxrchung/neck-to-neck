@@ -35,8 +35,7 @@ switch(network_type)
 		}
 		var buffer = ds_map_find_value(async_load, "buffer");
 		var struct = read_json_buffer(network_id, buffer);
-		var socket_id = ds_map_find_value(async_load, "socket");
-		var is_player_1 = socket_id == connected_sockets[0];
+		var is_player_1 = network_id == connected_sockets[0];
 		switch (struct.command)
 		{
 			case "GRAB_PRESSED":
