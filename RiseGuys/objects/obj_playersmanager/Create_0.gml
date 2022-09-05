@@ -124,21 +124,36 @@ function player2_tense_release()
 	p2contracting = false;
 }
 
-function player1_impulse()
+can_player1_impulse = true;
+function player1_impulse(impulse_x, impulse_y)
 {
-    var dir = point_direction(player1Head.x, player1Head.y, mouse_x, mouse_y);
+	if !can_player1_impulse
+	{
+		return;
+	}
+	
+	can_player1_impulse = false;
+	alarm[0] = room_speed;
+    var dir = point_direction(player1Head.x, player1Head.y, impulse_x, impulse_y);
 	with (player1Head)
 	{
-		physics_apply_impulse(x, y, lengthdir_x(300, dir), lengthdir_y(300, dir));	
+		physics_apply_impulse(x, y, lengthdir_x(100, dir), lengthdir_y(100, dir));	
 	}
 }
 
-function player2_impulse()
+can_player2_impulse = true;
+function player2_impulse(impulse_x, impulse_y)
 {
-    var dir = point_direction(player2Head.x, player2Head.y, mouse_x, mouse_y);
+	if !can_player2_impulse
+	{
+		return;
+	}
+	can_player2_impulse = false;
+	alarm[1] = room_speed;
+    var dir = point_direction(player2Head.x, player2Head.y, impulse_x, impulse_y);
 	with (player2Head)
 	{
-		physics_apply_impulse(x, y, lengthdir_x(300, dir), lengthdir_y(300, dir));	
+		physics_apply_impulse(x, y, lengthdir_x(100, dir), lengthdir_y(100, dir));	
 	}
 }
 

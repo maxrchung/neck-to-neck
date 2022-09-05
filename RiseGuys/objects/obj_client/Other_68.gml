@@ -5,7 +5,7 @@ var struct = read_json_buffer(network_id, buffer, false);
 switch (struct.command) {
 	case "CONNECTED":
 		if (struct.data.players == 2) {
-			room_goto(TestRoom0);
+			room_goto(NeckRoom);
 		}
 		break;
 	case "GAMESTATE":

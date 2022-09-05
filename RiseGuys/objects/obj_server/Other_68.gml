@@ -12,7 +12,7 @@ switch(network_type)
 			players: players
 		});
 		if (players == 2) {
-			room_goto(TestRoom0);
+			room_goto(NeckRoom);
 			is_game_started = true;
 		}
 		break;
@@ -80,6 +80,16 @@ switch(network_type)
 				else
 				{
 					obj_PlayersManager.player2_tense_release();
+				}
+				break;
+			case "IMPULSE_PRESSED":
+				if is_player_1
+				{
+					obj_PlayersManager.player1_impulse(struct.data.impulse_x, struct.data.impulse_y);
+				}
+				else
+				{
+					obj_PlayersManager.player2_impulse(struct.data.impulse_x, struct.data.impulse_y);
 				}
 				break;
 		}

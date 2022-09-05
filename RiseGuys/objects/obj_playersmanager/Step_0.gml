@@ -30,12 +30,12 @@ if(p2grabbing)
 
 if keyboard_check_pressed(ord("A"))
 {
-	player1_impulse();
+	player1_impulse(mouse_x, mouse_y);
 }
 
 if keyboard_check_pressed(ord("S"))
 {
-	player2_impulse();
+	player2_impulse(mouse_x, mouse_y);
 }
 
 obj_Player1Head.x = player1Head.x;
