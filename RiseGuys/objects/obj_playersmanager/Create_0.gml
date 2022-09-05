@@ -125,9 +125,10 @@ function player2_tense_release()
 }
 
 can_player1_impulse = true;
+is_hack_impulse = false;
 function player1_impulse(impulse_x, impulse_y)
 {
-	if !can_player1_impulse
+	if !can_player1_impulse && !is_hack_impulse
 	{
 		return;
 	}
@@ -143,7 +144,7 @@ function player1_impulse(impulse_x, impulse_y)
 can_player2_impulse = true;
 function player2_impulse(impulse_x, impulse_y)
 {
-	if !can_player2_impulse
+	if !can_player2_impulse && !is_hack_impulse
 	{
 		return;
 	}
