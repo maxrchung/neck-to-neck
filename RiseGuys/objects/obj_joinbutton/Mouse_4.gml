@@ -11,8 +11,10 @@ else
 	show_debug_message("Connected to server");
 	var instance = instance_create_layer(0, 0, "Instances", obj_Client, {
 		client_socket: client_socket,
+		player: -1,
 	});
 
 	room_goto(roo_WaitingRoom);
 }
 
+obj_AudioSwag.play_button_sfx();

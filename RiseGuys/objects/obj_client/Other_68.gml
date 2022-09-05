@@ -1,6 +1,6 @@
 var network_id = ds_map_find_value(async_load, "id");
 var buffer = ds_map_find_value(async_load, "buffer");
-var struct = read_json_buffer(network_id, buffer, false);
+var struct = read_json_buffer(network_id, buffer);
 
 switch (struct.command) {
 	case "CONNECTED":
@@ -41,5 +41,8 @@ switch (struct.command) {
 		break;
 	case "GAME_WAITING":
 		room_goto(roo_WaitingRoom);
+		break;
+	case "ASSIGN_PLAYER":
+		player = struct.data.player;
 		break;
 }
