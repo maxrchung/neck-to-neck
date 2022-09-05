@@ -12,8 +12,8 @@
   "bitRate": 128,
   "volume": 1.0,
   "preload": false,
-  "soundFile": "sou_tensesfx.wav",
-  "duration": 0.088125,
+  "soundFile": "sou_tensesfx.mp3",
+  "duration": 0.783625,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
