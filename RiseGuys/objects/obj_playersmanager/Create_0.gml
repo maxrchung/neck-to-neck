@@ -77,9 +77,6 @@ prisJoint1 = physics_joint_prismatic_create(player1Wheel,player2Wheel,obj_Player
 prisJoint2 = physics_joint_prismatic_create(player2Wheel,player1Wheel,obj_Player2.x-8,obj_Player2.y,-10,0,-150,150,true,1000,-500,false,false);
 physics_joint_rope_create(player1Head,player2Head,obj_Player1.x,obj_Player1.y,obj_Player2.x,obj_Player2.y,300,false);
 
-// camera
-instance_create_layer(obj_StartLocation.x, obj_StartLocation.y, layer, obj_CameraFollow);
-
 //helper functions
 function player1_grab_press()
 {
