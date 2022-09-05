@@ -11,6 +11,13 @@ switch(network_type)
 		send_json_buffer(connected_sockets, "CONNECTED", {
 			players: players
 		});
+		for (var i = 0; i < array_length(connected_sockets); i++)
+		{
+			// Tell client what player they are
+			send_json_buffer([connected_sockets[i]], "ASSIGN_PLAYER", {
+				player: i + 1
+			});
+		}
 		if (players == 2) {
 			room_goto(NeckRoom);
 		}

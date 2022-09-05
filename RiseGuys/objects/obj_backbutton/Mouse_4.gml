@@ -11,4 +11,5 @@ if instance_exists(obj_Client)
 	instance_destroy(obj_Client);
 }
 
+obj_AudioSwag.play_button_sfx();
 room_goto(roo_StartRoom);

@@ -81,35 +81,43 @@ physics_joint_rope_create(player1Head,player2Head,obj_Player1.x,obj_Player1.y,ob
 function player1_grab_press()
 {
 	p1grabbing = true;
+	obj_Player1Head.sprite_index = spr_Head1Closed;
+	obj_AudioSwag.play_grab_sfx();
 }
 
 function player2_grab_press()
 {
 	p2grabbing = true;
+	obj_Player2Head.sprite_index = spr_Head2Closed;
+	obj_AudioSwag.play_grab_sfx();
 }
 
 function player1_grab_release()
 {
 	p1grabbing = false;
 	p1grabbed = false;
+	obj_Player1Head.sprite_index = spr_Head1Open;
 }
 
 function player2_grab_release()
 {
 	p2grabbing = false;
 	p2grabbed = false;
+	obj_Player2Head.sprite_index = spr_Head2Open;
 }
 
 function player1_tense_press()
 {
 	physics_joint_enable_motor(prisJoint1,true);
 	p1contracting = true;
+	obj_AudioSwag.play_tense_sfx();
 }
 
 function player2_tense_press()
 {
 	physics_joint_enable_motor(prisJoint2,true);
 	p2contracting = true;
+	obj_AudioSwag.play_tense_sfx();
 }
 
 function player1_tense_release()
