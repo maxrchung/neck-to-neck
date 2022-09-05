@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},"order":2,},
+    {"id":{"name":"spr_HelpIconPressed","path":"sprites/spr_HelpIconPressed/spr_HelpIconPressed.yy",},"order":19,},
     {"id":{"name":"Script2","path":"scripts/Script2/Script2.yy",},"order":9,},
     {"id":{"name":"spr_Head1Closed_alt","path":"sprites/spr_Head1Closed_alt/spr_Head1Closed_alt.yy",},"order":0,},
     {"id":{"name":"Circle_B","path":"sprites/Circle_B/Circle_B.yy",},"order":6,},
@@ -62,6 +63,7 @@
     {"id":{"name":"spr_Forest1","path":"sprites/spr_Forest1/spr_Forest1.yy",},"order":4,},
     {"id":{"name":"sou_ImpulseSfx","path":"sounds/sou_ImpulseSfx/sou_ImpulseSfx.yy",},"order":3,},
     {"id":{"name":"NeckRoom","path":"rooms/NeckRoom/NeckRoom.yy",},"order":4,},
+    {"id":{"name":"HelpScreen","path":"sprites/HelpScreen/HelpScreen.yy",},"order":20,},
     {"id":{"name":"Networking","path":"scripts/Networking/Networking.yy",},"order":0,},
     {"id":{"name":"spr_Head2Open","path":"sprites/spr_Head2Open/spr_Head2Open.yy",},"order":8,},
     {"id":{"name":"spr_Start","path":"sprites/spr_Start/spr_Start.yy",},"order":2,},
@@ -107,6 +109,7 @@
     {"id":{"name":"spr_HostPressed","path":"sprites/spr_HostPressed/spr_HostPressed.yy",},"order":5,},
     {"id":{"name":"obj_PlayersManager","path":"objects/obj_PlayersManager/obj_PlayersManager.yy",},"order":3,},
     {"id":{"name":"roo_EndRoom","path":"rooms/roo_EndRoom/roo_EndRoom.yy",},"order":5,},
+    {"id":{"name":"spr_HelpIcon","path":"sprites/spr_HelpIcon/spr_HelpIcon.yy",},"order":18,},
     {"id":{"name":"EndScreen","path":"sprites/EndScreen/EndScreen.yy",},"order":15,},
     {"id":{"name":"spr_RibFront","path":"sprites/spr_RibFront/spr_RibFront.yy",},"order":10,},
     {"id":{"name":"spr_BackButton","path":"sprites/spr_BackButton/spr_BackButton.yy",},"order":6,},

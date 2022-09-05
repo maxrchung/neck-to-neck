@@ -1,1 +1,1 @@
-sprite_index = spr_HelpPressed;
+sprite_index = spr_HelpIconPressed;
