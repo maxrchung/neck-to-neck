@@ -13,6 +13,7 @@
     {"id":{"name":"spr_GameButton","path":"sprites/spr_GameButton/spr_GameButton.yy",},"order":3,},
     {"id":{"name":"obj_Player2","path":"objects/obj_Player2/obj_Player2.yy",},"order":13,},
     {"id":{"name":"TestRoom1","path":"rooms/TestRoom1/TestRoom1.yy",},"order":1,},
+    {"id":{"name":"obj_Neck","path":"objects/obj_Neck/obj_Neck.yy",},"order":14,},
     {"id":{"name":"obj_TestFace","path":"objects/obj_TestFace/obj_TestFace.yy",},"order":6,},
     {"id":{"name":"obj_Player1Head","path":"objects/obj_Player1Head/obj_Player1Head.yy",},"order":0,},
     {"id":{"name":"obj_StartButton","path":"objects/obj_StartButton/obj_StartButton.yy",},"order":2,},

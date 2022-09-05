@@ -10,6 +10,7 @@ p2grabbed = false;
 //each player has a main head and several bars and a circle, allowing for smooth non-collision with each other
 //without the prismatic joint messing up
 //a rope joint is also added since the prismatic constraints don't work with this setup
+playerNeck = instance_create_layer(obj_StartLocation.x,obj_StartLocation.y,layer,obj_Neck);
 player1Head = instance_create_layer(obj_StartLocation.x-100,obj_StartLocation.y, layer, obj_Player1);
 player1Bar0 = instance_create_layer(obj_Player1.x+2,obj_Player1.y,layer,obj_NonCollidable);
 player1Bar1 = instance_create_layer(obj_Player1.x+6,obj_Player1.y,layer,obj_NonCollidable);
@@ -24,7 +25,7 @@ p1HeadFix = physics_fixture_create();
 physics_fixture_set_circle_shape(p1HeadFix,obj_Player1.sprite_width/2);
 physics_fixture_set_density(p1HeadFix, 0.5);
 physics_fixture_set_restitution(p1HeadFix, 0.8);
-physics_fixture_bind_ext(p1HeadFix,player1Head,obj_Player1.sprite_width/2,obj_Player1.sprite_width/2);
+physics_fixture_bind(p1HeadFix,player1Head);
 physics_fixture_delete(p1HeadFix);
 p1Bar0Fix = physics_fixture_create();
 physics_fixture_set_box_shape(p1Bar0Fix,2,1);
@@ -46,7 +47,7 @@ p2HeadFix = physics_fixture_create();
 physics_fixture_set_circle_shape(p2HeadFix,obj_Player2.sprite_width/2);
 physics_fixture_set_density(p2HeadFix, 0.5);
 physics_fixture_set_restitution(p2HeadFix, 0.8);
-physics_fixture_bind_ext(p2HeadFix,player2Head,obj_Player2.sprite_width/2,obj_Player2.sprite_width/2);
+physics_fixture_bind(p2HeadFix,player2Head);
 physics_fixture_delete(p2HeadFix);
 p2Bar0Fix = physics_fixture_create();
 physics_fixture_set_box_shape(p2Bar0Fix,2,1);
