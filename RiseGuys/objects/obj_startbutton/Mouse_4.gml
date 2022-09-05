@@ -1,6 +1,6 @@
 obj_AudioSwag.play_button_sfx();
 
-var server_socket = network_create_server(network_socket_tcp, 6510, 69);
+var server_socket = network_create_server(network_socket_tcp, 6510, 10);
 if server_socket < 0
 {
 	show_debug_message("Unable to start server");
