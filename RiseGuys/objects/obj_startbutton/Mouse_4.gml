@@ -8,7 +8,6 @@ show_debug_message("Server started");
 instance_create_layer(0, 0, "Instances", obj_Server, {
 	server_socket: server_socket,
 	connected_sockets: [],
-	is_game_started: false,
 });
 
 room_goto(roo_WaitingRoom);

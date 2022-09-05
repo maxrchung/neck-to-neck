@@ -33,7 +33,11 @@ if (p1grabbing &&
 	collision_circle(player1Head.phy_position_x,player1Head.phy_position_y,20,obj_g1End,false,true) &&
 	collision_circle(player2Head.phy_position_x,player2Head.phy_position_y,20,obj_g1End,false,true))
 {
-	show_debug_message("you win!!!!!");
+	if instance_exists(obj_Server)
+	{
+		send_json_buffer(obj_Server.connected_sockets, "GAME_END", "");
+	}
+	room_goto(roo_EndRoom);
 }
 
 if keyboard_check_pressed(ord("A"))

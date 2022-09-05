@@ -1,5 +1,6 @@
 function read_json_buffer(socket_id, buffer, show_debug = true)
 {
+	buffer_seek(buffer, buffer_seek_start, 0);
 	var json_string = buffer_read(buffer, buffer_string);
 	if show_debug
 	{
@@ -9,7 +10,7 @@ function read_json_buffer(socket_id, buffer, show_debug = true)
 	return struct;
 }
 
-function send_json_buffer(connected_sockets, command, data = {}, show_debug = true)
+function send_json_buffer(connected_sockets, command, data = "", show_debug = true)
 {
 	for (var i = 0; i < array_length(connected_sockets); ++i) {
 		var connected_socket = array_get(connected_sockets, i);
