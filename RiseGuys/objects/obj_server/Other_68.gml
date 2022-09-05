@@ -13,7 +13,6 @@ switch(network_type)
 		});
 		if (players == 2) {
 			room_goto(NeckRoom);
-			is_game_started = true;
 		}
 		break;
 	case network_type_disconnect:
@@ -26,10 +25,12 @@ switch(network_type)
 				break;
 			}
 		}
+		send_json_buffer(connected_sockets, "GAME_WAITING", "");
+		room_goto(roo_WaitingRoom);
 		show_debug_message("Disconnected socket: " + string(socket_id));
 		break;
 	case network_type_data:
-		if !is_game_started
+		if !instance_exists(obj_PlayersManager)
 		{
 			return;
 		}

@@ -1,4 +1,4 @@
-if !is_game_started
+if !instance_exists(obj_PlayersManager)
 {
 	return;
 }

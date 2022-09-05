@@ -29,4 +29,17 @@ switch (struct.command) {
 	case "P2_GRAB_RELEASED":
 		obj_Player2Head.sprite_index = spr_Head2Open;
 		break;
+	case "GAME_END":
+		room_goto(roo_EndRoom);
+		break;
+	case "GAME_CONTINUE":
+		room_goto(NeckRoom);
+		break;
+	case "SERVER_DISCONNECT":
+		room_goto(roo_StartRoom);
+		network_destroy(obj_Client.client_socket);
+		break;
+	case "GAME_WAITING":
+		room_goto(roo_WaitingRoom);
+		break;
 }
