@@ -35,8 +35,3 @@ obj_Player1Head.image_angle = player1Head.phy_rotation;
 obj_Player2Head.x = player2Head.x;
 obj_Player2Head.y = player2Head.y;
 obj_Player2Head.image_angle = player1Head.phy_rotation;
-
-playerNeck.x = (player1Head.x + player2Head.x)/2
-playerNeck.y = (player1Head.y + player2Head.y)/2
-playerNeck.image_xscale = sqrt(power(player1Head.phy_position_x-player2Head.phy_position_x,2)+power(player1Head.phy_position_y-player2Head.phy_position_y,2)) / 1366;
-playerNeck.image_angle = radtodeg(arctan2((player1Head.y-playerNeck.y),(playerNeck.x-player1Head.x)));
