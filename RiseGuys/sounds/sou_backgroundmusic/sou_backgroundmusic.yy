@@ -13,7 +13,7 @@
   "volume": 1.0,
   "preload": false,
   "soundFile": "sou_backgroundmusic.mp3",
-  "duration": 10.848,
+  "duration": 23.95425,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

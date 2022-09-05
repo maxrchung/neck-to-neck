@@ -9,4 +9,4 @@ physics_fixture_set_friction(fixture, 0.2);
 physics_fixture_bind(fixture, id);
 physics_fixture_delete(fixture);
 
-//render_flags = phy_debug_render_shapes | phy_debug_render_joints | phy_debug_render_coms | phy_debug_render_obb;
+render_flags = phy_debug_render_shapes | phy_debug_render_joints | phy_debug_render_coms | phy_debug_render_obb;
