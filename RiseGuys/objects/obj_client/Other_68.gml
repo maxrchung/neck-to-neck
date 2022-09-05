@@ -5,6 +5,7 @@ var struct = read_json_buffer(network_id, buffer);
 switch (struct.command) {
 	case "CONNECTED":
 		if (struct.data.players == 2) {
+			obj_AudioSwag.play_game_start_sfx();
 			room_goto(NeckRoom);
 		}
 		break;
@@ -18,9 +19,11 @@ switch (struct.command) {
 		obj_Player2Head.image_angle = data.player2_rot;
 		break;
 	case "P1_GRAB_PRESSED":
+		obj_AudioSwag.play_grab_sfx();
 		obj_Player1Head.sprite_index = spr_Head1Closed;
 		break;
 	case "P2_GRAB_PRESSED":
+		obj_AudioSwag.play_grab_sfx();
 		obj_Player2Head.sprite_index = spr_Head2Closed;
 		break;
 	case "P1_GRAB_RELEASED":
@@ -30,9 +33,11 @@ switch (struct.command) {
 		obj_Player2Head.sprite_index = spr_Head2Open;
 		break;
 	case "GAME_END":
+		obj_AudioSwag.play_win_sfx();
 		room_goto(roo_EndRoom);
 		break;
 	case "GAME_CONTINUE":
+		obj_AudioSwag.play_game_start_sfx();
 		room_goto(NeckRoom);
 		break;
 	case "SERVER_DISCONNECT":
@@ -44,5 +49,11 @@ switch (struct.command) {
 		break;
 	case "ASSIGN_PLAYER":
 		player = struct.data.player;
+		break;
+	case "PLAY_TENSE_SFX":
+		obj_AudioSwag.play_tense_sfx();
+		break;
+	case "PLAY_IMPULSE_SFX":
+		obj_AudioSwag.play_impulse_sfx();
 		break;
 }
