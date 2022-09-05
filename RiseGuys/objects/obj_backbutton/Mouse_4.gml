@@ -1,3 +1,5 @@
+obj_AudioSwag.play_button_sfx();
+
 if instance_exists(obj_Server)
 {
 	send_json_buffer(obj_Server.connected_sockets, "SERVER_DISCONNECT", "");
@@ -11,5 +13,4 @@ if instance_exists(obj_Client)
 	instance_destroy(obj_Client);
 }
 
-obj_AudioSwag.play_button_sfx();
 room_goto(roo_StartRoom);

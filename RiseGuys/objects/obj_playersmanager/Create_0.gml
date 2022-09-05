@@ -108,6 +108,7 @@ function player2_grab_release()
 
 function player1_tense_press()
 {
+	show_debug_message("player1_tense_press");
 	physics_joint_enable_motor(prisJoint1,true);
 	p1contracting = true;
 	obj_AudioSwag.play_tense_sfx();

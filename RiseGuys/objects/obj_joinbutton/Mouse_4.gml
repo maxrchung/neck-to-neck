@@ -1,3 +1,5 @@
+obj_AudioSwag.play_button_sfx();
+
 var client_socket = network_create_socket(network_socket_tcp);
 network_set_config(network_config_connect_timeout, 1000);
 var server_socket = network_connect(client_socket, obj_IpInput.text, 6510);
@@ -16,5 +18,3 @@ else
 
 	room_goto(roo_WaitingRoom);
 }
-
-obj_AudioSwag.play_button_sfx();

@@ -12,8 +12,8 @@
   "bitRate": 128,
   "volume": 1.0,
   "preload": false,
-  "soundFile": "sou_gamestartsfx",
-  "duration": 0.0,
+  "soundFile": "sou_gamestartsfx.mp3",
+  "duration": 10.848,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
