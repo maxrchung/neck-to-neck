@@ -12,8 +12,8 @@
   "bitRate": 128,
   "volume": 1.0,
   "preload": false,
-  "soundFile": "sou_impulsesfx.wav",
-  "duration": 0.088125,
+  "soundFile": "sou_impulsesfx.mp3",
+  "duration": 0.339562,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

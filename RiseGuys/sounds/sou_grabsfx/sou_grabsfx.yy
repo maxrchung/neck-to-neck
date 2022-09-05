@@ -13,7 +13,7 @@
   "volume": 1.0,
   "preload": false,
   "soundFile": "sou_grabsfx.mp3",
-  "duration": 0.417938,
+  "duration": 0.156688,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
