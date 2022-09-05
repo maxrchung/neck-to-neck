@@ -28,6 +28,14 @@ if(p2grabbing)
 	}
 }
 
+if (p1grabbing && 
+	p2grabbing && 
+	collision_circle(player1Head.phy_position_x,player1Head.phy_position_y,20,obj_g1End,false,true) &&
+	collision_circle(player2Head.phy_position_x,player2Head.phy_position_y,20,obj_g1End,false,true))
+{
+	show_debug_message("you win!!!!!");
+}
+
 if keyboard_check_pressed(ord("A"))
 {
 	player1_impulse(mouse_x, mouse_y);
