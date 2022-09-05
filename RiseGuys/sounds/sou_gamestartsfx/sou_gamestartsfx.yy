@@ -13,7 +13,7 @@
   "volume": 1.0,
   "preload": false,
   "soundFile": "sou_gamestartsfx.mp3",
-  "duration": 10.848,
+  "duration": 10.109375,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

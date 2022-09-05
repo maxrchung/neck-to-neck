@@ -13,7 +13,7 @@
   "volume": 1.0,
   "preload": false,
   "soundFile": "sou_impulsesfx.mp3",
-  "duration": 0.339562,
+  "duration": 0.130562,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

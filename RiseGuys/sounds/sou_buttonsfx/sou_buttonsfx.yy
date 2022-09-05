@@ -13,7 +13,7 @@
   "volume": 1.0,
   "preload": false,
   "soundFile": "sou_buttonsfx.mp3",
-  "duration": 0.156688,
+  "duration": 0.052187,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
