@@ -41,7 +41,7 @@ if (p1grabbing &&
 	room_goto(roo_EndRoom);
 }
 
-if keyboard_check_pressed(ord("A"))
+if keyboard_check_pressed(ord("W"))
 {
 	player1_impulse(mouse_x, mouse_y);
 }
