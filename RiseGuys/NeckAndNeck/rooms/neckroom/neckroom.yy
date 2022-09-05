@@ -144,7 +144,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_g0","path":"objects/obj_g0/obj_g0.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":18.011917,"scaleX":0.85845184,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1152.1357,"y":3016.025,"resourceVersion":"1.0","name":"inst_7A5AC963","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_g0","path":"objects/obj_g0/obj_g0.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-18.374065,"scaleX":0.7830657,"scaleY":2.9804835,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1149.1418,"y":2788.9507,"resourceVersion":"1.0","name":"inst_77336EF7","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_g0","path":"objects/obj_g0/obj_g0.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.5,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":763.5236,"y":7681.2847,"resourceVersion":"1.0","name":"inst_14006B3A","tags":[],"resourceType":"GMRInstance",},
-      ],"visible":false,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Collision","tags":[],"resourceType":"GMRInstanceLayer",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_BackButton","path":"objects/obj_BackButton/obj_BackButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.28422877,"scaleY":0.28422874,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":16.0,"y":8697.074,"resourceVersion":"1.0","name":"inst_25757743","tags":[],"resourceType":"GMRInstance",},
+      ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Collision","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Jaw","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_RibFront","path":"sprites/spr_RibFront/spr_RibFront.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":795.0,"y":8353.0,"resourceVersion":"1.0","name":"graphic_DA43907","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -347,6 +348,7 @@
     {"name":"inst_7A5AC963","path":"rooms/NeckRoom/NeckRoom.yy",},
     {"name":"inst_77336EF7","path":"rooms/NeckRoom/NeckRoom.yy",},
     {"name":"inst_14006B3A","path":"rooms/NeckRoom/NeckRoom.yy",},
+    {"name":"inst_25757743","path":"rooms/NeckRoom/NeckRoom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
