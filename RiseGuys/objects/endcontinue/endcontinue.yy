@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_BackButton",
-    "path": "sprites/spr_BackButton/spr_BackButton.yy",
+    "name": "spr_EndContinue",
+    "path": "sprites/spr_EndContinue/spr_EndContinue.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_BackButton",
+  "name": "EndContinue",
   "tags": [],
   "resourceType": "GMObject",
 }

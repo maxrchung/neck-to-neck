@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_BackButton",
-    "path": "sprites/spr_BackButton/spr_BackButton.yy",
+    "name": "spr_EndTitle",
+    "path": "sprites/spr_EndTitle/spr_EndTitle.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,9 +22,9 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":10,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":11,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_BackButton",
+  "name": "EndTitle",
   "tags": [],
   "resourceType": "GMObject",
 }
