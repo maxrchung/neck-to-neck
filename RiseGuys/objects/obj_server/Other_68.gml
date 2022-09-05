@@ -30,13 +30,23 @@ switch(network_type)
 		show_debug_message("Disconnected socket: " + string(socket_id));
 		break;
 	case network_type_data:
+		var buffer = ds_map_find_value(async_load, "buffer");
+		var struct = read_json_buffer(network_id, buffer);
+		var is_player_1 = network_id == connected_sockets[0];
+		// Specially handle game continue since it doesn't use obj_PlayersManager
+		switch (struct.command)
+		{
+			case "GAME_CONTINUE":
+				send_json_buffer(obj_Server.connected_sockets, "GAME_CONTINUE", "");
+				room_goto(NeckRoom);
+				break;
+		}
+	
 		if !instance_exists(obj_PlayersManager)
 		{
 			return;
 		}
-		var buffer = ds_map_find_value(async_load, "buffer");
-		var struct = read_json_buffer(network_id, buffer);
-		var is_player_1 = network_id == connected_sockets[0];
+
 		switch (struct.command)
 		{
 			case "GRAB_PRESSED":
