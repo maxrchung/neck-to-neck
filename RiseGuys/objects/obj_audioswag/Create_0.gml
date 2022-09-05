@@ -28,4 +28,9 @@ function play_button_sfx()
 	play_sfx(sou_ButtonSfx);	
 }
 
+function play_game_start_sfx()
+{
+	play_sfx(sou_GameStartSfx);
+}
+
 audio_play_sound(sou_BackgroundMusic, 100, true);

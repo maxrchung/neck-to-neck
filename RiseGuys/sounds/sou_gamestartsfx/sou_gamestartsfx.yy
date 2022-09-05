@@ -3,7 +3,7 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "name": "sou_ButtonSfx",
+  "name": "sou_GameStartSfx",
   "conversionMode": 0,
   "compression": 0,
   "type": 0,
@@ -12,7 +12,7 @@
   "bitRate": 128,
   "volume": 1.0,
   "preload": false,
-  "soundFile": "sou_buttonsfx.wav",
+  "soundFile": "sou_gamestartsfx.wav",
   "duration": 0.088125,
   "parent": {
     "name": "Sounds",

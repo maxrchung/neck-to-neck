@@ -108,9 +108,14 @@ function player2_grab_release()
 
 function player1_tense_press()
 {
+	show_debug_message("player1_tense_press");
 	physics_joint_enable_motor(prisJoint1,true);
 	p1contracting = true;
 	obj_AudioSwag.play_tense_sfx();
+	if instance_exists(obj_Server)
+	{
+		send_json_buffer(obj_Server.connected_sockets, "PLAY_TENSE_SFX", "");
+	}
 }
 
 function player2_tense_press()
@@ -118,6 +123,10 @@ function player2_tense_press()
 	physics_joint_enable_motor(prisJoint2,true);
 	p2contracting = true;
 	obj_AudioSwag.play_tense_sfx();
+	if instance_exists(obj_Server)
+	{
+		send_json_buffer(obj_Server.connected_sockets, "PLAY_TENSE_SFX", "");
+	}
 }
 
 function player1_tense_release()
@@ -147,6 +156,11 @@ function player1_impulse(impulse_x, impulse_y)
 	{
 		physics_apply_impulse(x, y, lengthdir_x(100, dir), lengthdir_y(100, dir));	
 	}
+	obj_AudioSwag.play_impulse_sfx();
+	if instance_exists(obj_Server)
+	{
+		send_json_buffer(obj_Server.connected_sockets, "PLAY_IMPULSE_SFX", "");
+	}
 }
 
 can_player2_impulse = true;
@@ -162,6 +176,11 @@ function player2_impulse(impulse_x, impulse_y)
 	with (player2Head)
 	{
 		physics_apply_impulse(x, y, lengthdir_x(100, dir), lengthdir_y(100, dir));	
+	}
+	obj_AudioSwag.play_impulse_sfx();
+	if instance_exists(obj_Server)
+	{
+		send_json_buffer(obj_Server.connected_sockets, "PLAY_IMPULSE_SFX", "");
 	}
 }
 

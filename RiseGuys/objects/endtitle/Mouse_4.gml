@@ -1,3 +1,4 @@
+obj_AudioSwag.play_button_sfx();
 if instance_exists(obj_Server)
 {
 	send_json_buffer(obj_Server.connected_sockets, "SERVER_DISCONNECT", "");
