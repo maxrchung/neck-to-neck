@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c21bd40c-3c8f-4d68-8b7a-1760b68b6ca6","path":"sprites/spr_Join/spr_Join.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c21bd40c-3c8f-4d68-8b7a-1760b68b6ca6","path":"sprites/spr_Join/spr_Join.yy",},"LayerId":{"name":"e10e888d-7519-4306-bc27-5bb1e907fdc5","path":"sprites/spr_Join/spr_Join.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Join","path":"sprites/spr_Join/spr_Join.yy",},"resourceVersion":"1.0","name":"c21bd40c-3c8f-4d68-8b7a-1760b68b6ca6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"79ba16c3-4f74-47a0-a66e-b82eadf68596","path":"sprites/spr_JoinPressed/spr_JoinPressed.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"79ba16c3-4f74-47a0-a66e-b82eadf68596","path":"sprites/spr_JoinPressed/spr_JoinPressed.yy",},"LayerId":{"name":"1e004134-7270-4b73-b5e3-6a3ef315e96a","path":"sprites/spr_JoinPressed/spr_JoinPressed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_JoinPressed","path":"sprites/spr_JoinPressed/spr_JoinPressed.yy",},"resourceVersion":"1.0","name":"79ba16c3-4f74-47a0-a66e-b82eadf68596","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Join","path":"sprites/spr_Join/spr_Join.yy",},
+    "spriteId": {"name":"spr_JoinPressed","path":"sprites/spr_JoinPressed/spr_JoinPressed.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f5e2c3fe-c7ce-4cb0-ada7-91af46e73ad0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c21bd40c-3c8f-4d68-8b7a-1760b68b6ca6","path":"sprites/spr_Join/spr_Join.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"a26f2cdc-75c2-4b46-9f6d-155634253ab2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"79ba16c3-4f74-47a0-a66e-b82eadf68596","path":"sprites/spr_JoinPressed/spr_JoinPressed.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Join","path":"sprites/spr_Join/spr_Join.yy",},
+    "parent": {"name":"spr_JoinPressed","path":"sprites/spr_JoinPressed/spr_JoinPressed.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_Join",
+    "name": "spr_JoinPressed",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e10e888d-7519-4306-bc27-5bb1e907fdc5","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1e004134-7270-4b73-b5e3-6a3ef315e96a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_Join",
+  "name": "spr_JoinPressed",
   "tags": [],
   "resourceType": "GMSprite",
 }
