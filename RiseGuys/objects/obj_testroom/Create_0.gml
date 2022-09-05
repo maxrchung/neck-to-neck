@@ -15,7 +15,7 @@ if (instance_exists(obj_Server) || !instance_exists(obj_Client))
 player1Head = instance_create_layer(0, 0, layer, obj_Player1Head);
 player2Head = instance_create_layer(0, 0, layer, obj_Player2Head);
 playerNeck = instance_create_layer(obj_StartLocation.x,obj_StartLocation.y,layer,obj_Neck);
-playerNeck.image_yscale = 0.1;
+playerNeck.image_yscale = 0.25;
 
 var nonplayer_tint = 88;
 if instance_exists(obj_Client)
