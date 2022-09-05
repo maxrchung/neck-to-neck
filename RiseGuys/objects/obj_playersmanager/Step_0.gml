@@ -3,10 +3,10 @@
 
 if(p1grabbing)
 {
-	if(collision_point(player1Head.x,player1Head.y,obj_Grabable,true,true))
+	if(collision_circle(player1Head.x,player1Head.y,16,obj_Grabable,true,true))
 	{
 		//show_debug_message(collision_point(player1Head.x,player1Head.y,obj_Grabable,true,true));
-		collision_point(player1Head.x,player1Head.y,obj_Grabable,true,true).visible = false;
+		//collision_point(player1Head.x,player1Head.y,obj_Grabable,true,true).visible = false;
 		p1grabbed = true;
 		player1Head.phy_linear_velocity_x = 0;
 		player1Head.phy_linear_velocity_y = 0;
@@ -18,9 +18,9 @@ if(p1grabbing)
 }
 if(p2grabbing)
 {
-	if(collision_point(player2Head.x,player2Head.y,obj_Grabable,true,true))
+	if(collision_circle(player2Head.x,player2Head.y,16,obj_Grabable,true,true))
 	{
-		collision_point(player2Head.x,player2Head.y,obj_Grabable,true,true).visible = false;
+		//collision_point(player2Head.x,player2Head.y,obj_Grabable,true,true).visible = false;
 		p2grabbed = true;
 		player2Head.phy_linear_velocity_x = 0;
 		player2Head.phy_linear_velocity_y = 0;
