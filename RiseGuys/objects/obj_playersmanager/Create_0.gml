@@ -11,6 +11,7 @@ p2grabbed = false;
 //without the prismatic joint messing up
 //a rope joint is also added since the prismatic constraints don't work with this setup
 playerNeck = instance_create_layer(obj_StartLocation.x,obj_StartLocation.y,layer,obj_Neck);
+playerNeck.image_yscale = 0.1;
 player1Head = instance_create_layer(obj_StartLocation.x-100,obj_StartLocation.y, layer, obj_Player1);
 player1Bar0 = instance_create_layer(obj_Player1.x+2,obj_Player1.y,layer,obj_NonCollidable);
 player1Bar1 = instance_create_layer(obj_Player1.x+6,obj_Player1.y,layer,obj_NonCollidable);
