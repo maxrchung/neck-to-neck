@@ -113,6 +113,7 @@
     {"roomId":{"name":"TestRoom1","path":"rooms/TestRoom1/TestRoom1.yy",},},
     {"roomId":{"name":"roo_WaitingRoom","path":"rooms/roo_WaitingRoom/roo_WaitingRoom.yy",},},
     {"roomId":{"name":"InsaneRoom","path":"rooms/InsaneRoom/InsaneRoom.yy",},},
+    {"roomId":{"name":"roo_EndRoom","path":"rooms/roo_EndRoom/roo_EndRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
