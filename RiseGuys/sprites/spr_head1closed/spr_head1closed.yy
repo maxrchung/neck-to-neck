@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "ClientSideRendering420",
-    "path": "folders/Sprites/ClientSideRendering420.yy",
+    "name": "CharacterArt",
+    "path": "folders/Sprites/CharacterArt.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Head1Closed",

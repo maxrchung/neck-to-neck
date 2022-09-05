@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_JoinButton",
-    "path": "sprites/spr_JoinButton/spr_JoinButton.yy",
+    "name": "spr_Join",
+    "path": "sprites/spr_Join/spr_Join.yy",
   },
   "solid": false,
   "visible": true,

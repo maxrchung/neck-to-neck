@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "ClientSideRendering420",
-    "path": "folders/Objects/ClientSideRendering420.yy",
+    "name": "PlayerObjs",
+    "path": "folders/Objects/PlayerObjs.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_Player1Head",

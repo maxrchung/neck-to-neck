@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Square_R",
-    "path": "sprites/Square_R/Square_R.yy",
+    "name": "spr_Neck",
+    "path": "sprites/spr_Neck/spr_Neck.yy",
   },
   "solid": false,
   "visible": true,
