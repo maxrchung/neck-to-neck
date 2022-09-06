@@ -4,9 +4,9 @@
 
 # Neck to Neck
 
-Neck to Neck is a 2D platformer where you guide 2 heads to the top of the level. The heads are connected by a stretchable neck and are constrained by its length. You can play solo or multiplayer. The game is loosely based on Japanese myths and storytelling.
+Neck to Neck is a 2D platformer where you guide 2 heads to the top of the level. The heads are connected by a stretchable neck and constrained by its length. You can either play solo or set up a server to play 2 player LAN. The game is loosely based on Japanese myths and storytelling.
 
-## Starting a multiplayer LAN game
+## Starting a 2 player LAN game
 
 1. Unzip files from `Builds` folder.
 2. Run `NextToNext.exe`.
