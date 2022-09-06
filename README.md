@@ -12,8 +12,8 @@ Neck to Neck is a 2D platformer where you guide 2 heads to the top of the level.
 2. Run `NeckToNeck.exe`.
 3. Click `Host` button to start the server.
 4. Find your local IP address. On Windows, you can run the `ipconfig` command from command line. Your IP should look something like `192.168.1.228`.
-5. Type IP address in game.
-6. Run another instance of `NeckToNeck.exe`.
+5. Run another instance of `NeckToNeck.exe`.
+6. Type IP address in game.
 7. Click `Join` button to start a client.
 8. Run another instance of `NeckToNeck.exe`.
 9. Type IP address in game.
