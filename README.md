@@ -1,5 +1,7 @@
 <p align="center">
+<a href="https://github.com/maxrchung/insane_game_jam_im_insane/releases/tag/1.0.0">
 <img src="https://raw.githubusercontent.com/maxrchung/insane_game_jam_im_insane/main/UIButtons/NeckLogo.png" width="500">
+</a>
 </p>
 
 # Neck to Neck
