@@ -8,14 +8,14 @@ Neck to Neck is a 2D platformer where you guide 2 heads to the top of the level.
 
 ## Starting a 2 player LAN game
 
-1. Unzip files from `NextToNext.zip`.
-2. Run `NextToNext.exe`.
+1. Unzip files from `NeckToNeck.zip`.
+2. Run `NeckToNeck.exe`.
 3. Click `Host` button to start the server.
 4. Find your local IP address. On Windows, you can run the `ipconfig` command from command line. Your IP should look something like `192.168.1.228`.
 5. Type IP address in game.
-6. Run another instance of `NextToNext.exe`.
+6. Run another instance of `NeckToNeck.exe`.
 7. Click `Join` button to start a client.
-8. Run another instance of `NextToNext.exe`.
+8. Run another instance of `NeckToNeck.exe`.
 9. Type IP address in game.
 10. Click `Join` button to start a client.
 11. Play!
