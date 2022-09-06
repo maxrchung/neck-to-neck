@@ -17,5 +17,5 @@ Neck to Neck is a 2D platformer where you guide 2 heads to the top of the level.
 7. Click `Join` button to start a client.
 8. Run another instance of `NextToNext.exe`.
 9. Type IP address in game.
-10. Click Join button to start a client.
+10. Click `Join` button to start a client.
 11. Play!
