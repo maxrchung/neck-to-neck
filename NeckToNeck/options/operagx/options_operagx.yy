@@ -1,6 +1,6 @@
 {
-  "option_operagx_version": "0.0.0.2",
-  "option_operagx_next_version": "0.0.0.3",
+  "option_operagx_version": "0.0.0.4",
+  "option_operagx_next_version": "0.0.0.5",
   "option_operagx_game_name": "Neck to Neck",
   "option_operagx_interpolate_pixels": true,
   "option_operagx_scale": 0,
