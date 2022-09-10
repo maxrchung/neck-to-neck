@@ -32,7 +32,7 @@ Neck to Neck is a 2D platformer where you guide 2 heads to the top of the level.
 1. Unzip files from `NeckToNeck.zip`.
 2. Run `NeckToNeck.exe`.
 3. Click `Host` button to start the server.
-4. Find your IP address. If you are planning to run a LAN server and using Windows, you can run the `ipconfig` command from command line. Your local IP should look something like `192.168.1.228`. If you are planning to run a server open to the Internet, you can use go to somewhere like [whatismyip.com](https://www.whatismyip.com) to figure out your public IP address.
+4. Find your IP address. If you are planning to run a LAN server and using Windows, you can run the `ipconfig` command from command line. Your local IP should look something like `192.168.1.228`. If you are planning to run a server open to the Internet, you can go to somewhere like [whatismyip.com](https://www.whatismyip.com) to figure out your public IP address.
 5. If you are running a server open to the Internet, you may have to set up port forwarding on your router so that clients can connect to you. The Neck to Neck server runs on port 6510.
 6. Run another instance of `NeckToNeck.exe`.
 7. Type IP address in game.
