@@ -14,18 +14,16 @@ Neck to Neck is a 2D platformer where you guide 2 heads to the top of the level.
 
 - Download `NeckToNeck.zip` from our release page: https://github.com/maxrchung/insane_game_jam_im_insane/releases/download/1.0.0/NeckToNeck.zip
 - Extract files and run `NextToNext.exe`.
-- Supports both solo and multiplayer modes.
 
 ### OperaGX
 
 - Requires OperaGX browser.
 - Play at: https://gx.games/games/nxtkdh/neck-to-neck/tracks/4335765c-ecfb-4e8f-89f6-ea77a15b594c
-- Supports only solo mode.
+- Note: Only solo mode is supported. Multiplayer mode does not work.
 
 ### Source
 
 - Clone the repository and open `NeckToNeck/NeckToNeck.yyp` in GameMaker.
-- Supports both solo and multiplayer modes.
 
 ## Starting a networked game
 
@@ -33,7 +31,7 @@ Neck to Neck is a 2D platformer where you guide 2 heads to the top of the level.
 2. Run `NeckToNeck.exe`.
 3. Click `Host` button to start the server.
 4. Find your IP address. If you are planning to run a LAN server and using Windows, you can run the `ipconfig` command from command line. Your local IP should look something like `192.168.1.228`. If you are planning to run a server open to the Internet, you can go to somewhere like [whatismyip.com](https://www.whatismyip.com) to figure out your public IP address.
-5. If you are running a server open to the Internet, you may have to set up port forwarding on your router so that clients can connect to you. The Neck to Neck server runs on port 6510.
+5. If you are running a server open to the Internet, you may have to set up port forwarding on your router so that clients can connect to you. The Neck to Neck server runs on port `6510`.
 6. Run another instance of `NeckToNeck.exe`.
 7. Type IP address in game.
 8. Click `Join` button to start a client.
